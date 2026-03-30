@@ -1,7 +1,6 @@
 baseURL: "https://landofooo.vercel.app/"
 languageCode: "zh-cn"
 title: "löö's land"
-theme: "PaperMod"
 
 # 导航栏配置（注意这里的空格缩进，非常重要！）
 menu:
