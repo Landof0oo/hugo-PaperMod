@@ -1,5 +1,5 @@
 ---
-title: "LandofOoo's first blog"
+title: "lÖÖ's first blog"
 date: 2026-03-30
 draft: false
 ---
