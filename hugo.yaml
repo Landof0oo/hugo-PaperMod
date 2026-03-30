@@ -5,4 +5,3 @@ theme: "PaperMod"
 
 params:
   defaultTheme: auto
-  showReadingTime: true
