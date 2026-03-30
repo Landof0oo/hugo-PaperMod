@@ -1,9 +1,9 @@
 baseURL: "https://landofooo.vercel.app/"
 languageCode: "zh-cn"
-title: "löö's land" # 这就是左侧显示的站名
+title: "löö's land"
 theme: "PaperMod"
 
-# 导航栏配置：在这里加你想放的页面
+# 导航栏配置（注意这里的空格缩进，非常重要！）
 menu:
   main:
     - name: "文章"
@@ -14,8 +14,14 @@ menu:
       weight: 20
 
 params:
-  # 开启右上角的搜索图标 (需要额外加一个小文件，想加的话跟我说)
-  ShowSearchButton: true 
-  # 右上角的 RSS 图标是默认开启的
-  # 右上角的 月亮/太阳 切换
+  # 让左上角显示你的名字
+  label:
+    text: "löö's land"
+  
+  # 右上角功能
+  ShowSearchButton: true
   disableThemeToggle: false
+  
+  # 像 cbvivi 那样主页只显示摘要
+  showFullContents: false
+  summaryLength: 30
