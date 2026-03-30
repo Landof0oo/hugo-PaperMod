@@ -1,7 +1,11 @@
 baseURL: "https://example.org/"
 languageCode: "zh-cn"
 title: "landofo_o"
-theme: "PaperMod"
+
+# 关键改动：告诉 Hugo 主题就在当前目录下
+theme: ["."] 
 
 params:
   defaultTheme: auto
+  showReadingTime: true
+  displayFullContent: false
