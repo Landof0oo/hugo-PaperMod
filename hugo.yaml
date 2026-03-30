@@ -1,10 +1,8 @@
 baseURL: "https://example.org/"
 languageCode: "zh-cn"
-title: "林纯青的博客"
+title: "landofo_o"
 theme: "PaperMod"
 
-menu:
-  main:
-    - name: "文章"
-      url: "posts"
-      weight: 10
+params:
+  defaultTheme: auto
+  showReadingTime: true
