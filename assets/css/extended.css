@@ -1,0 +1,24 @@
+/* 1. 缩小主页大标题字体 */
+.first-entry h1 {
+    font-size: 32px !important; /* 默认很大，这里改成 32px 左右更精致 */
+    margin-bottom: 12px !important; /* 缩小标题和正文之间的距离 */
+}
+
+/* 2. 调整正文间距和字体大小 */
+.first-entry .entry-content {
+    font-size: 16px !important;
+    line-height: 1.6 !important; /* 调整行高，让文字不那么散 */
+    margin-bottom: 20px !important; /* 缩小文字到下方社交图标的距离 */
+}
+
+/* 3. 缩小社交图标的大小（可选） */
+.social-icons a svg {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+/* 4. 缩小整个欢迎语区域底部的巨大留白 */
+.first-entry {
+    margin-bottom: 30px !important; /* 让“My first blog”列表向上靠一靠 */
+    min-height: auto !important;    /* 防止强制拉伸高度 */
+}
