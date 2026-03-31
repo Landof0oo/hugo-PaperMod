@@ -13,7 +13,7 @@ menu:
     - name: "All"
       url: "posts"
       weight: 10
-    - name: "🔍"
+    - name: "⌕"
       url: "search"
       weight: 20
 
