@@ -30,11 +30,9 @@ Params:
   summaryLength: 0
 
   homeInfoParams:
-    Title: "<span style='font-size: 28px;'>Hi, welcome to land of o_o</span>"
+    Title: "Hi, welcome to land of o_o"
     Content: >
-      <div style='font-size: 15px; line-height: 1.4; margin-top: -10px; margin-bottom: -15px;'>
-      我是 l ö ö 酱，会在这里记录一些日常心得，给人间的青草地浇浇水！
-      </div>
+      我是löö 酱，会在这里记录一些日常心得，给人间的青草地浇浇水。
 
   socialIcons:
     - name: youtube
