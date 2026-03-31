@@ -19,8 +19,18 @@ Params:
     text: "löö's land"
   assets:
     favicon: "/favicon.ico"
+  
   ShowSearchButton: true
   disableThemeToggle: false
   ShowRSSButtonText: false
   showFullContents: false
   summaryLength: 0
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 100
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
