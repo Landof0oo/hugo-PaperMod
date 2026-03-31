@@ -22,9 +22,9 @@ menu:
   # 社交图标（就是你截图中那一排小图标）
   socialIcons:
     - name: "github"
-      url: "https://github.com/你的名字"
-    - name: "rss"
-      url: "index.xml"
+      url: "https://github.com/Landof0oo"
+    - name: "youtube"
+      url: "https://www.youtube.com/@landofo_o"
     location: 0
     distance: 100
     threshold: 0.4
