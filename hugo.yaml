@@ -2,7 +2,7 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON #  负责生成搜索索引
+    - JSON 
     
 baseURL: "https://landofooo.vercel.app/"
 languageCode: "zh-cn"
