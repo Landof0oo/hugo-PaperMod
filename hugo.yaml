@@ -14,9 +14,6 @@ menu:
     - name: "All"
       url: "posts"
       weight: 10
-    - name: "搜索"   
-      url: "search"
-      weight: 20
 
 params:
   label:
