@@ -14,7 +14,7 @@ menu:
       url: "posts"
       weight: 10
 
-params:
+Params:
   label:
     text: "löö's land"
   assets:
