@@ -1,14 +1,13 @@
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON 
-    
 baseURL: "https://landofooo.vercel.app/"
 languageCode: "zh-cn"
 title: "löö's land"
 
-# 导航栏配置
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 menu:
   main:
     - name: "All"
@@ -20,19 +19,8 @@ params:
     text: "löö's land"
   assets:
     favicon: "/favicon.ico"
-  # 搜索开关（放大镜）
   ShowSearchButton: true
-  # 月亮开关
   disableThemeToggle: false
-  # 其他极简配置
   ShowRSSButtonText: false
   showFullContents: false
   summaryLength: 0
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 100
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
