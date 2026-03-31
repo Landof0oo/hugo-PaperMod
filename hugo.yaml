@@ -13,6 +13,9 @@ menu:
     - name: "All"
       url: "posts"
       weight: 10
+    - name: "Search"
+      url: "search"
+      weight: 20
 
 Params:
   label:
