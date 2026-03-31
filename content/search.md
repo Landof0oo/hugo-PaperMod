@@ -1,7 +1,5 @@
 ---
-title: ""        
+title: "Search"
+placeholder: Search demo site with full text fuzzy search ...
 layout: "search"
-summary: "search"
-placeholder: "Type to search..."
-hidemeta: true   
 ---
