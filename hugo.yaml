@@ -28,7 +28,20 @@ Params:
   ShowRSSButtonText: false
   showFullContents: false
   summaryLength: 0
+  
+  homeInfoParams:
+    Title: "Hi, welcome to land of o_o"
+    Content: >
+      我是löö 酱，会在这里记录一些日常心得，给人间的青草地浇浇水！
 
+  socialIcons:
+    - name: youtube
+      url: "https://www.youtube.com/@landofo_o"
+    - name: x
+      url: "https://x.com/landofo_o"
+    - name: email
+      url: "mailto:dogblessuuu@gmail.com"
+      
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
