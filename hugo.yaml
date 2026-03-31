@@ -15,16 +15,10 @@ menu:
 params:
   label:
     text: "löö's land"
-  
-  # 1. 图标设置（确保 static 里的文件名叫 favicon.ico）
   assets:
     favicon: "/favicon.ico"
-  
-  # 2. 导航栏功能
   ShowSearchButton: true
   disableThemeToggle: false
   ShowRSSButtonText: false
-
-  # 3. 极简列表模式
   showFullContents: false
   summaryLength: 0
