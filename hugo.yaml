@@ -1,3 +1,9 @@
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON #  负责生成搜索索引
+    
 baseURL: "https://landofooo.vercel.app/"
 languageCode: "zh-cn"
 title: "löö's land"
@@ -22,3 +28,11 @@ params:
   ShowRSSButtonText: false
   showFullContents: false
   summaryLength: 0
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 100
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
