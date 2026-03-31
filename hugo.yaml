@@ -20,8 +20,11 @@ params:
     text: "löö's land"
   assets:
     favicon: "/favicon.ico"
+  # 搜索开关（放大镜）
   ShowSearchButton: true
+  # 月亮开关
   disableThemeToggle: false
+  # 其他极简配置
   ShowRSSButtonText: false
   showFullContents: false
   summaryLength: 0
