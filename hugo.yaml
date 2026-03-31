@@ -13,22 +13,18 @@ menu:
     - name: "All"
       url: "posts"
       weight: 10
-
-Params:
-  label:
-    text: "löö's land"
-  assets:
-    favicon: "/favicon.ico"
   
-  ShowSearchButton: true
-  disableThemeToggle: false
-  ShowRSSButtonText: false
-  showFullContents: false
-  summaryLength: 0
+  params:
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "这是我的博客，记录一些日常感悟。"
 
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
+  # 社交图标（就是你截图中那一排小图标）
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/你的名字"
+    - name: "rss"
+      url: "index.xml"
     location: 0
     distance: 100
     threshold: 0.4
