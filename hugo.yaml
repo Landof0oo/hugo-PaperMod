@@ -29,5 +29,7 @@ params:
   summaryLength: 0
 
 params:
+  label:
+    text: "löö's land"
   assets:
     favicon: "/favicon.ico"
