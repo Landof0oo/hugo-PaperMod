@@ -9,27 +9,19 @@ menu:
       url: "posts"
       weight: 10
 
-# 只有放在 params 缩进下的东西才会出现在右上角
-params:
-  # 1. 名字显示在左上角
-  label:
-    text: "löö's land"
-  
-  # 2. 放大镜图标
-  ShowSearchButton: true
-  
-  # 3. 月亮/太阳切换（确保是 false 才会显示按钮）
-  disableThemeToggle: false
-  
-  # 4. RSS 图标（只要你配置了，默认就会出现）
-  ShowRSSButtonText: false
-
-  # 像 cbvivi 那样主页只显示列表，不显示正文
-  showFullContents: false
-  summaryLength: 0
-
 params:
   label:
     text: "löö's land"
+  
+  # 1. 图标设置（确保 static 里的文件名叫 favicon.ico）
   assets:
     favicon: "/favicon.ico"
+  
+  # 2. 导航栏功能
+  ShowSearchButton: true
+  disableThemeToggle: false
+  ShowRSSButtonText: false
+
+  # 3. 极简列表模式
+  showFullContents: false
+  summaryLength: 0
