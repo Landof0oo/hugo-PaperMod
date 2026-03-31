@@ -41,6 +41,9 @@ Params:
       url: "https://x.com/landofo_o"
     - name: email
       url: "mailto:dogblessuuu@gmail.com"
+    - name: spotify
+      title: "Listen on Spotify"
+      url: "https://open.spotify.com/user/mckenziearnold12049?si=db3e3f6c48c74c3f"
       
   fuseOpts:
     isCaseSensitive: false
