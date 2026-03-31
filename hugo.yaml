@@ -27,3 +27,7 @@ params:
   # 像 cbvivi 那样主页只显示列表，不显示正文
   showFullContents: false
   summaryLength: 0
+
+params:
+  assets:
+    favicon: "/favicon.ico"
