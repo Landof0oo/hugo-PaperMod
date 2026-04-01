@@ -2,6 +2,11 @@ baseURL: "https://landofooo.vercel.app/"
 languageCode: "zh-cn"
 title: "löö's land"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
 outputs:
   home:
     - HTML
@@ -23,7 +28,6 @@ Params:
   assets:
     favicon: "/favicon.ico"
 
-  unsafe: true
   ShowSearchButton: true
   disableThemeToggle: false
   ShowRSSButtonText: false
