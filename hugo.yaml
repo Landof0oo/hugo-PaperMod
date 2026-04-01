@@ -22,7 +22,8 @@ Params:
     text: "löö's land"
   assets:
     favicon: "/favicon.ico"
-  
+
+  unsafe: true
   ShowSearchButton: true
   disableThemeToggle: false
   ShowRSSButtonText: false
